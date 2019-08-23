@@ -11,6 +11,7 @@ class Anagram
   def match(array_word)
     array_word.find_all{|value| value.split("").sort == @word.split.sort}
   end
+  
 end
 
 
@@ -39,5 +40,5 @@ class Anagram
 end
 =end
 
-test= Anagram.new("test")
-test.match(%w(enlists google inlets banana estt))
+#test= Anagram.new("test")
+#test.match(%w(enlists google inlets banana estt))
