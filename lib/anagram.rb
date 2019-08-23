@@ -1,6 +1,7 @@
 # Your code goes here!
 require 'pry'
 
+=begin
 class Anagram
   attr_accessor :word
   
@@ -23,7 +24,7 @@ class Anagram
     array  
   end
 end
-
+=end
 
 test= Anagram.new("test")
 test.match(%w(enlists google inlets banana estt))
